@@ -12,6 +12,6 @@ Features:
 
 # Download
 
-## [Releases](https://github.com/LBL215exe/BLEtoolkit/releases)
+1. [Releases](https://github.com/LBL215exe/BLEtoolkit/releases)
 
-## [Github Actions](https://github.com/LBL215exe/BLEtoolkit/actions)
+2. [Github Actions](https://github.com/LBL215exe/BLEtoolkit/actions)

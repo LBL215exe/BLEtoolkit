@@ -2,6 +2,7 @@ import Foundation
 import CoreBluetooth
 import Combine
 import UniformTypeIdentifiers
+import UIKit
 
 // MARK: - Models
 struct DiscoveredDevice: Identifiable {

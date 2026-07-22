@@ -39,11 +39,8 @@ if [[ ! -d "$source_dir" ]]; then
   fi
 fi
 
-find "$source_dir" -mindepth 1 -maxdepth 1 -exec cp -a {} "$repo_root/" \;
-
-if [[ -d "$repo_root/BLEToolkit" ]]; then
-  rm -rf "$repo_root/BLEToolkit"
-fi
+shopt -s dotglob
+cp -a "$source_dir"/. "$repo_root"/
 
 if git -C "$repo_root" rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   git -C "$repo_root" add -A
